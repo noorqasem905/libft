@@ -38,6 +38,6 @@ int	main(void)
 	//char	j[] = "123456789";
 	char	k[] = "abfbonjour";
 
-	printf("THE VALUE IS: %d\n", ft_strncmp("atomsa\0\0\0", "atoms\0abc", 8));
- printf("THE VALUE IS: %d\n", strncmp("atomsa\0\0\0\0", "atoms\0abc", 8));
+	printf("THE VALUE IS: %d\n", ft_strncmp("path=/hdgasgds", "path=/ho", 8));
+ //printf("THE VALUE IS: %d\n", strncmp("atomsa\0\0\0\0", "atoms\0abc", 8));
 	}*/

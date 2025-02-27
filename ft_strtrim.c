@@ -6,7 +6,7 @@
 /*   By: nqasem <nqasem@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/01 20:40:44 by nqasem            #+#    #+#             */
-/*   Updated: 2024/09/02 20:47:47 by nqasem           ###   ########.fr       */
+/*   Updated: 2024/11/19 19:36:07 by nqasem           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,13 +32,12 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(str, &s1[start], end - start + 2);
 	return (str);
 }
-/*
-int	main(void)
+/*int	main(void)
 {
 	char	*set;
 
-	char str[100] = "    lorem \n ipsum \t dolor \n sit \t amet    "; //
-	set = " ";
+	char str[100] = "path fasdf  ertretg path noor path"; //
+	set = "path";
 	char *res = ft_strtrim(str, set);
 	printf("%s\n", res);
 }
