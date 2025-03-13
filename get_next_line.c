@@ -86,7 +86,7 @@ char	*ft_read(int fd, char *buf)
 			return (NULL);
 		}
 		temp[bytread] = '\0';
-		buf = ft_strjoin_line(buf, temp);
+		buf = ft_strjoin(buf, temp);
 		free(temp);
 	}
 	return (buf);
